@@ -1,0 +1,224 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#wrap {
+    padding: 0
+}
+
+.logo {
+    width: 200px;
+    height: 80px;
+    margin-top: -30px;
+}
+
+#nav-input {
+    width: 45vw;
+}
+
+#navigation {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: white;
+    border-bottom: 1px solid darkgray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0
+}
+
+.bordure {
+    border-right: 2px solid black
+}
+
+.johndoe {
+    line-height: 34px;
+    margin-right: 10px
+}
+
+.bouton {
+    margin-right: 10px
+}
+
+#position-bouton {
+    display: flex;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 10px
+}
+
+#video {
+    margin-top: 10px
+}
+
+#video iframe {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 10px
+}
+
+.like-bordure {
+
+  border-right: 1px solid black;
+
+  padding-right: 5px;
+
+}
+
+.marge-bouton {
+
+  margin: 0px 5px; 
+
+}
+
+.like {
+    border: 1px solid darkgray;
+    margin: 15px 5px 10px 5px
+}
+
+.vues {
+    display: flex;
+    margin-left: 50px
+}
+
+.vues p {
+    font-size: 3rem;
+    margin-right: 5px
+}
+
+.fa-bar-chart {
+    border: 1px solid darkgray;
+    border-radius: 10px;
+    padding: 5px
+}
+
+.progression {
+    margin-top: 10px;
+    margin-bottom: 5px
+}
+
+.show {
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    background: white;
+    margin-bottom: 10px
+}
+
+.position-show {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.vert {
+    background: green
+}
+
+.textarea {
+    width: 80%
+}
+
+.com {
+    margin-bottom: 50px
+}
+
+.gris {
+    color: gray;
+    font-weight: 100;
+    margin-top: 10px
+}
+
+.description {
+    margin-bottom: 10px
+}
+
+.droite {
+    margin-top: 100px
+}
+
+.suggestions {
+    width: 100%;
+    border-bottom: 2px solid darkgray;
+    padding-bottom: 5px
+}
+
+.playlist{
+margin:25px;
+}
+
+.photo1 {
+    background: url(../images/moto.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100px
+}
+
+.photo2 {
+    background: url(../images/gtr.jpg);
+        background-size: cover;
+    background-position: center;
+    height: 100px
+}
+
+.photo3 {
+    background: url(../images/hayat.jpg);
+        background-size: cover;
+    background-position: center;
+    height: 100px
+}
+
+.photo4 {
+    background: url(../images/mustang.jpeg);
+        background-size: cover;
+    background-position: center;
+    height: 100px
+}
+
+.photo5 {
+    background: url(../images/steak.jpg);
+        background-size: cover;
+    background-position: center;
+    height: 100px
+}
+
+.photo6 {
+    background: url(../images/tacos.jpg);
+        background-size: cover;
+    background-position: center;
+    height: 100px
+}
+
+.espacement {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.block {
+    display: flex;
+    flex-direction: column
+}
